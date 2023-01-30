@@ -1,0 +1,88 @@
+<html>
+    <head>
+
+    </head>
+
+    <style>
+        body {
+        background-color: #212121;
+    }
+         #navbar {
+        margin-top: -1%;
+        display: flex;
+        height: 10%;
+        background-color: #0f0f0f;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-right: -1%;
+        margin-left: -1%;
+        align-items: center;
+    }
+
+   
+
+    #searchcontainer
+    {
+        flex: 3;
+        float: right;
+    }
+    </style>
+
+    <body>
+        <div id="navbar">
+
+            <img src="https://logodix.com/logo/1146025.png" style="height: 50%; text-align: center; margin-left: 2%; margin-right: 1%;" />
+            <img src=" https://mluzkbkhajw7.i.optimole.com/adqdYw-XWO-Ycob/w:auto/h:auto/q:auto/https://mvc.life/wp-content/uploads/2020/03/hd-youtube-logo-png-transparent-background-20.png " style="height: 60%; " />
+            <h1 style="color: white; font-style:unset; margin-right: 8%; ">
+                YouTube
+            </h1>
+    
+            <input style="width: 700px ; height: 42px;" type="text" id="query" placeholder="Search" />
+            <button style="background-color: white;" onclick="searchmovie()"><img src="https://webstockreview.net/images/google-clipart-full-hd-8.png" height ="40px" width="50px" /></button>
+            <img src="https://www.jootoor.com/wp-content/uploads/2020/07/Google-Voice-Search-Voice-Search-Optimization.png" style="height: 70%; margin-left: 0.2%;" />
+            <img src="https://assets.ifttt.com/images/channels/651849913/icons/on_color_large.png" style="height: 40%; margin-left: 10%; margin-right: 1.6%;" />
+            <img src="https://th.bing.com/th/id/R.7fab0f7024c82117d6556585779d16cf?rik=NjJUZ51BghTt1w&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fu%2fF%2fU%2fx%2fz%2fR%2fwhite-camera-hi.png&ehk=YGXRVRQ32sFwr0qKq0p92wr5%2bXWAeRz6AyyQGhLxb3g%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+                style="height: 40%; margin-right: 1.6%;" />
+                <input id="signup"  type="image"  onclick="oblogin()" src="https://www.seoclerk.com/pics/want25900-13Uxgt1429382117.png"
+                style="border-radius:50% ; height: 60%; margin-right: 1%;"
+                            alt="submit" /></div>
+                <div id="filter">
+<form id="type" onsubmit="filter(event)">
+    <select id="name" style="background-color: #212121 ; color: white;">
+        <option selected disabled>Type</option>
+        
+        <option value="video">video</option>
+      </select>
+      <select id="duration" style="background-color: #212121 ; color: white;">
+        
+        <option value="default">Duration</option>
+        <option value="long">over 20 min</option>
+        <option value="medium">4-20 min</option>
+        <option value="short">under 4 min</option>
+      </select>
+      <!-- <select id="oder" style="background-color: #212121 ; color: white;">
+        <option value="relevance">Order</option>
+        <option value="date">date</option>
+        <option value="rating">rating</option>
+        <option value="relevance">relevance</option>
+        <option value="title">title</option>
+        <option value="videoCount">videoCount</option>
+        <option value="viewCount">viewCount</option>
+        
+      </select> -->
+<input type="submit" style="background-color: #212121; color: white; border-color: white;">
+      
+    
+</form>
+                </div>
+
+    <div id="searchcontainer">
+
+    </div>
+
+
+
+    </body>
+</html>
+<script src="searchpage.js">
+
+</script>
